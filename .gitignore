@@ -1,0 +1,39 @@
+# Universal
+.DS_Store
+Thumbs.db
+*.tmp
+*.swp
+
+# Editors
+.idea/
+.vscode/
+
+# Env / secrets
+.env
+.env.*
+*.local
+
+# Node / TypeScript
+node_modules/
+.npm/
+.pnpm-store/
+dist/
+build/
+coverage/
+*.log
+
+# Flutter / Dart
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.packages
+.pub-cache/
+build/
+
+# iOS / Android builds
+**/ios/Pods/
+**/ios/Flutter/ephemeral/
+**/android/.gradle/
+**/android/local.properties
+**/*.keystore
+**/*.jks
